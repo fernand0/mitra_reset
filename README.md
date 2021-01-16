@@ -1,4 +1,4 @@
-# mitra_reset
+# mitra_router
 
 Programilla en Python para reiniciar tu ruter Mitrastar de Movistar. Sólo hace falta rellenar los parámetros al principio del programa (dirección IP y clave)
 Añadida la opción (por defecto) -l para listar las IPs conectadas al router.
