@@ -88,13 +88,10 @@ def main():
 
     session = getCredentials(ip)
 
-    if len(sys.argv)>1:
-        if sys.argv[1] == '-r':
-            reboot()
-        else: 
-            listIPs(host, session)
+    if (len(sys.argv) > 1) and (sys.argv[1] == '-r'):
+        reboot()
+    else: 
+        listIPs(host, session)
         
-    sys.exit()
-
 if __name__ == '__main__':
     main()
